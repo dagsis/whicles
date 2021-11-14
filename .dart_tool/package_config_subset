@@ -26,6 +26,10 @@ cupertino_icons
 2.12
 file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.4/
 file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.4/lib/
+email_validator
+2.12
+file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/email_validator-2.0.1/
+file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/email_validator-2.0.1/lib/
 fake_async
 2.12
 file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.2.0/
@@ -34,6 +38,14 @@ flutter_lints
 2.12
 file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_lints-1.0.4/
 file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_lints-1.0.4/lib/
+http
+2.14
+file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.13.4/
+file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.13.4/lib/
+http_parser
+2.12
+file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-4.0.0/
+file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-4.0.0/lib/
 lints
 2.12
 file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/lints-1.0.1/
