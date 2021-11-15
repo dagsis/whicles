@@ -56,6 +56,66 @@ class _HomePageState extends State<HomePage> {
               // );
             },
           ),
+          ListTile(
+            leading: Icon(Icons.two_wheeler),
+            title: const Text('Procedimientos'),
+            onTap: () {
+              // Navigator.push(
+              //   context,
+              //   MaterialPageRoute(
+              //     builder: (context) => BrandsScreen(token: widget.token,)
+              //   )
+              // );
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.two_wheeler),
+            title: const Text('Tipos de Documentos'),
+            onTap: () {
+              // Navigator.push(
+              //   context,
+              //   MaterialPageRoute(
+              //     builder: (context) => BrandsScreen(token: widget.token,)
+              //   )
+              // );
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.two_wheeler),
+            title: const Text('Usuarios'),
+            onTap: () {
+              // Navigator.push(
+              //   context,
+              //   MaterialPageRoute(
+              //     builder: (context) => BrandsScreen(token: widget.token,)
+              //   )
+              // );
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.two_wheeler),
+            title: const Text('Editar Perfil'),
+            onTap: () {
+              // Navigator.push(
+              //   context,
+              //   MaterialPageRoute(
+              //     builder: (context) => BrandsScreen(token: widget.token,)
+              //   )
+              // );
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.two_wheeler),
+            title: const Text('Cerrar Sesión'),
+            onTap: () {
+              // Navigator.push(
+              //   context,
+              //   MaterialPageRoute(
+              //     builder: (context) => BrandsScreen(token: widget.token,)
+              //   )
+              // );
+            },
+          ),
         ],
       ),
     );
