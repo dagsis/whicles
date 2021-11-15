@@ -57,7 +57,7 @@ class _HomePageState extends State<HomePage> {
             },
           ),
           ListTile(
-            leading: Icon(Icons.two_wheeler),
+            leading: Icon(Icons.precision_manufacturing),
             title: const Text('Procedimientos'),
             onTap: () {
               // Navigator.push(
@@ -69,7 +69,7 @@ class _HomePageState extends State<HomePage> {
             },
           ),
           ListTile(
-            leading: Icon(Icons.two_wheeler),
+            leading: Icon(Icons.badge),
             title: const Text('Tipos de Documentos'),
             onTap: () {
               // Navigator.push(
@@ -81,8 +81,8 @@ class _HomePageState extends State<HomePage> {
             },
           ),
           ListTile(
-            leading: Icon(Icons.two_wheeler),
-            title: const Text('Usuarios'),
+            leading: Icon(Icons.toys),
+            title: const Text('Tipos de Vehiculos'),
             onTap: () {
               // Navigator.push(
               //   context,
@@ -93,7 +93,23 @@ class _HomePageState extends State<HomePage> {
             },
           ),
           ListTile(
-            leading: Icon(Icons.two_wheeler),
+            leading: Icon(Icons.language),
+            title: const Text('Usuarios'),
+            onTap: () {
+              // Navigator.push(
+              //   context,
+              //   MaterialPageRoute(
+              //     builder: (context) => BrandsScreen(token: widget.token,)
+              //   )
+              // );
+            },
+          ),
+          Divider(
+            color: Colors.black,
+            height: 2,
+          ),
+          ListTile(
+            leading: Icon(Icons.face),
             title: const Text('Editar Perfil'),
             onTap: () {
               // Navigator.push(
@@ -105,7 +121,7 @@ class _HomePageState extends State<HomePage> {
             },
           ),
           ListTile(
-            leading: Icon(Icons.two_wheeler),
+            leading: Icon(Icons.logout),
             title: const Text('Cerrar Sesión'),
             onTap: () {
               // Navigator.push(
