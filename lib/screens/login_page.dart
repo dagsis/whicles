@@ -6,6 +6,7 @@ import 'package:vehicles_app/helpers/constans.dart';
 
 import 'package:http/http.dart' as http;
 import 'package:vehicles_app/models/user.dart';
+import 'package:vehicles_app/screens/home_page.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -212,6 +213,13 @@ class _LoginPageState extends State<LoginPage> {
 
     var decodedJson = jsonDecode(body);
     var token = Token.fromJson(decodedJson);
+
+    Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(
+            builder: (context) => HomePage(
+                  token: token,
+                )));
   }
 
   bool _validateFields() {
