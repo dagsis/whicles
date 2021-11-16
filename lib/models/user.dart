@@ -1,6 +1,7 @@
 import 'package:vehicles_app/models/response.dart';
 
 class Token {
+  // Response response = [];
   Response response = Response(errors: []);
   String token = '';
   String userId = '';
@@ -17,7 +18,10 @@ class Token {
       required this.roles});
 
   Token.fromJson(Map<String, dynamic> json) {
-    //   response = json['response'];
+    //  response = json['response'];
+
+    response = Response.fromJson(json['response']);
+
     token = json['token'];
     userId = json['userId'];
     userName = json['userName'];
@@ -27,7 +31,9 @@ class Token {
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['response'] = this.response.toJson();
+    if (this.response != null) {
+      data['response'] = this.response.toJson();
+    }
     data['token'] = token;
     data['userId'] = userId;
     data['userName'] = userName;

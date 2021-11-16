@@ -123,17 +123,23 @@ class _HomePageState extends State<HomePage> {
           ListTile(
             leading: Icon(Icons.logout),
             title: const Text('Cerrar Sesión'),
-            onTap: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: (context) => BrandsScreen(token: widget.token,)
-              //   )
-              // );
-            },
+            onTap: () => _logOut(),
           ),
         ],
       ),
     );
+  }
+
+  void _logOut() async {
+    // SharedPreferences prefs = await SharedPreferences.getInstance();
+    // await prefs.setBool('isRemembered', false);
+    // await prefs.setString('userBody', '');
+
+    // Navigator.pushReplacement(
+    //   context,
+    //   MaterialPageRoute(
+    //     builder: (context) => LoginScreen()
+    //   )
+    //);
   }
 }

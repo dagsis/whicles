@@ -1,10 +1,12 @@
 class Response {
-  List<Null> errors = [];
+  List<String> errors = [];
 
   Response({required this.errors});
 
   Response.fromJson(Map<String, dynamic> json) {
-    errors.add(json['errors']);
+    if (json['errors'] != null) {
+      errors.add(json['errors'].toString());
+    }
   }
 
   Map<String, dynamic> toJson() {
